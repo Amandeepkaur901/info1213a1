@@ -1,0 +1,127 @@
+body{
+	
+    font-family: Helvetica;
+    background-color:#e1f0ee;
+  }  
+
+.potfolio-content{
+	width: 100%;
+}
+
+#foto{
+  height: 100px;
+  width: 100px;
+	text-align: right;
+}
+body{
+	padding:125px;	
+}
+
+ a:link, a:visited {
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 90px;
+  border-radius: 50px;
+  margin-left: 5px;
+  border: 1px solid black;
+
+}
+.mail{
+  list-style: none;
+  padding-top: 10px;
+}
+.mail li{
+  padding-bottom: 10px;
+}
+h1{
+	color:#C70039;
+}
+h4, h3{
+	color:#1a0311;
+}
+strong{
+	color: black;
+}
+a:hover{
+  border: 1px solid ;
+  margin-left: 10px;
+  color: #C70039;
+}
+#personal_data{
+  text-align: center;
+  width: 185px;
+  padding: 6px;
+  border: 1px solid #C70039;
+  margin: 0;
+  border-radius: 100px;
+  font-size: 18px;
+  color: white;
+  font-family: sans-serif;
+  background-color: #C70039;
+}
+
+#pl{
+text-align: center;
+  width: 130px;
+  padding: 6px;
+  border: 1px solid #C70039;
+  margin: 0;
+  border-radius: 100px;
+  font-size: 18px;
+  color: black;
+  font-family: sans-serif;
+  margin-left: 15px;
+
+}
+#box{
+  margin-left: 50px;
+  display: flex;
+  list-style: none;
+}
+
+.do{
+  display: inline-flex;
+  list-style: none;
+  margin-left: 50px;
+}
+
+#hob{
+  text-align: center;
+  width: 130px;
+  padding: 6px;
+  border: 1px solid #C70039;
+  margin: 0;
+  border-radius: 100px;
+  font-size: 18px;
+  color: black;
+  font-family: sans-serif;
+  margin-left: 15px;
+}
+
+#icon{
+  margin-top: 8px;
+  margin-left: 68px;
+  font-size: 50px;
+  padding-bottom: -10px;
+  color: black;
+  display: flex;
+  transform: translate(-10%, 0%);
+}
+
+#icon li{
+  list-style: none;
+  padding-left: 50px;
+  transition: .5s;
+  text-align: center;
+  font-weight: lighter;
+
+}
+
+#icon li:hover{
+  color: #C70039;
+  transition: .10s;
+  margin-left: 10px;
+}
